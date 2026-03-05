@@ -35,6 +35,10 @@ const schema = new Schema({
 	comment: {
 		type: String,
 	},
+},
+{
+	versionKey: false,
+	timestamps: true,
 })
 
 export default model('leaveRequests', schema)
